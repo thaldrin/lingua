@@ -9,4 +9,6 @@ export default {
     RP_REQUIRE_MENTION: `You need to mention another user.`,
     RP_SELF: `Dont you want to ACTION someone other than yourself?`,
     RP_ME: `Don't ACTION me! ACTION someone else.`,
+    MISSING_TITLE: `Missing title. Separate the title and description with a pipe (\`|\`).`,
+    SUGGESTION_SENT: "Suggestion sent."
 }
