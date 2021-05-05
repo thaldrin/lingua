@@ -5,10 +5,12 @@ export default {
     ON_COOLDOWN_DESCRIPTION: `\`COMMAND\` has a cooldown of \`COOLDOWN\` \n Wait \`TIME\` berore trying to use it again.`,
     ON_ERROR: `\`COMMAND\` encountered an Error.`,
     NOT_ENOUGH_TAGS: `Not Enough Tags`,
-    NOT_ENOUGH_TAGS_DESC: "You need to provide Tags for me to Search for.",
+    NOT_ENOUGH_TAGS_DESC: "You need to provide Tags for me to search for.",
     RP_REQUIRE_MENTION: `You need to mention another user.`,
     RP_SELF: `Dont you want to ACTION someone other than yourself?`,
     RP_ME: `Don't ACTION me! ACTION someone else.`,
     MISSING_TITLE: `Missing title. Separate the title and description with a pipe (\`|\`).`,
-    SUGGESTION_SENT: "Suggestion sent."
+    SUGGESTION_SENT: "Suggestion sent.",
+    INVITE_STRING: "You can invite BOT using this Link",
+    ROLL: ":game_die: Rolling AMOUNT DICE...",
 }
