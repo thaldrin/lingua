@@ -13,4 +13,14 @@ export default {
     SUGGESTION_SENT: "Suggestion sent.",
     INVITE_STRING: "You can invite BOT using this Link",
     ROLL: ":game_die: Rolling AMOUNT DICE...",
+    CATEGORIES: {
+        GENERAL: { name: "General", desc: "" },
+        NSFW: { name: ":underage: NSFW", desc: "" },
+        ANIMALS: { name: "Animals", desc: "" },
+        IMAGES: { name: "Images", desc: "" },
+        MISC: { name: "Misc", desc: "" },
+        ROLEPLAY: { name: "Roleplay", desc: "" },
+        DEVELOPER: { name: "Developer", desc: "" },
+    },
+    // HELP_TIP: ""
 }
