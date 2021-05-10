@@ -1,5 +1,5 @@
 export default {
-    CHANNEL_NOT_NSFW: "This Channel is not marked as NSFW, please mark it as such an rerun this Command.",
+    CHANNEL_NOT_NSFW: "This Channel is not marked as NSFW, please mark it as such and rerun this Command.",
     INSUFFICIENT_PERMISSIONS: `You need \`PERMISSIONS\` Permissions to run this Command `,
     ON_COOLDOWN: `\`COMMAND\` is on Cooldown.`,
     ON_COOLDOWN_DESCRIPTION: `\`COMMAND\` has a cooldown of \`COOLDOWN\` \n Wait \`TIME\` berore trying to use it again.`,
@@ -15,12 +15,12 @@ export default {
     ROLL: ":game_die: Rolling AMOUNT DICE...",
     CATEGORIES: {
         INFO: { name: "Info", desc: "" },
-        NSFW: { name: ":underage: NSFW", desc: "" },
-        ANIMALS: { name: "Animals", desc: "" },
-        IMAGES: { name: "Images", desc: "" },
-        MISC: { name: "Misc", desc: "" },
+        NSFW: { name: ":underage: NSFW", desc: "Horny Stuff, restricted to NSFW Channels, ofc." },
+        ANIMALS: { name: "Animals", desc: "Cute Pictures of Animals to brighten your Day!" },
+        MISC: { name: "Misc", desc: "Miscellaneous Commands" },
         FUN: { name: "Fun", desc: "" },
-        DEVELOPER: { name: "Developer", desc: "" },
+        DEVELOPER: { name: "Developer", desc: "Developer only Commands, duh" },
     },
+    DEVELOPER_ONLY: "This Command is only for Developers."
     // HELP_TIP: ""
 }
