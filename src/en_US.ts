@@ -15,7 +15,7 @@ export default {
     ROLL: ":game_die: Rolling AMOUNT DICE...",
     CATEGORIES: {
         INFO: { name: "Info", desc: "" },
-        NSFW: { name: ":underage: NSFW", desc: "Horny Stuff, restricted to NSFW Channels, ofc." },
+        NSFW: { name: ":underage: NSFW", desc: "Horny Stuff, obviously." },
         ANIMALS: { name: "Animals", desc: "Cute Pictures of Animals to brighten your Day!" },
         MISC: { name: "Misc", desc: "Miscellaneous Commands" },
         FUN: { name: "Fun", desc: "" },
