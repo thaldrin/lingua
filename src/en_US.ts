@@ -19,7 +19,8 @@ export default {
         MISSING_TITLE: `Missing title. Separate the title and description with a pipe (\`|\`).`,
         VALUE: {
             PREFIX: "No Prefix was given.",
-            COUNTRY: "No Country code was given"
+            COUNTRY: "No Country code was given",
+            SETTING: "No Setting was given."
         }
     },
     USER_INFO: {
