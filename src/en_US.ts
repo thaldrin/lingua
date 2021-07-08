@@ -43,7 +43,7 @@ export default {
     RP_SELF: `Don't you want to ACTION someone other than yourself?`,
     RP_ME: `Don't ACTION me! ACTION someone else.`,
     MISSING_TITLE: `Missing title. Separate the title and description with a pipe (\`|\`).`,
-    SUGGESTION_SENT: "Suggestion sent.",
+    VALUE_SENT: "VALUE sent.",
     INVITE_STRING: "You can invite BOT using this Link",
     ROLL: ":game_die: Rolling AMOUNT DICE...",
     CATEGORIES: {
