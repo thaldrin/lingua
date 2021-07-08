@@ -22,7 +22,21 @@ export default {
             COUNTRY: "No Country code was given"
         }
     },
-
+    USER_INFO: {
+        INFO_ON: "Info on USER",
+        STATUS: "Status | STATE",
+        ROLES: "Roles [AMOUNT]",
+        USERNAME: "Username",
+        USERID: "User ID",
+        CREATED_DATE: "Created",
+        JOINED_AT: "Joined",
+        STATES: {
+            ONLINE: "Online",
+            DND: "Do not Disturb",
+            IDLE: "Idle",
+            OFFLINE: "Offline"
+        }
+    },
     NOT_ENOUGH_TAGS_DESC: "You need to provide Tags for me to search for.",
     NOT_ENOUGH_TAGS: `Not Enough Tags`,
     RP_REQUIRE_MENTION: `You need to mention another user.`,
