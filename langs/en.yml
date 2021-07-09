@@ -6,7 +6,7 @@ meta:
 
 missing:
   tags:
-    title: Not enough tags
+    name: Not enough tags
     desc: You need to provide a few Tags for me to search for.
   values:
     prefix: No Prefix given
@@ -19,8 +19,8 @@ error:
   nsfw: This Channel is not marked as NSFW, please mark it as such and rerun this Command
   permissions: You need `PERMISSIONS` Permissions to run this Command
   error: COMMAND encountered an error
-  COOLDOWN:
-    title: COMMAND is on COOLDOWN
+  cooldown:
+    name: COMMAND is on COOLDOWN
     desc: "COMMAND has a cooldown of COOLDOWN\nWait TIME before trying to run it again"
   developer: This Command can only be run by Devs
 
