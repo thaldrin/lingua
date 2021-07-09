@@ -1,0 +1,78 @@
+meta:
+  name:
+  locale:
+  translators:
+    -  # Lio
+
+missing:
+  tags:
+    title:
+    desc:
+  values:
+    prefix:
+    country:
+    setting:
+  title:
+  mention:
+
+error:
+  nsfw:
+  permissions:
+  error:
+  COOLDOWN:
+    title:
+    desc:
+  developer:
+
+categories:
+  info:
+    name:
+    desc:
+  nsfw:
+    name:
+    desc:
+  animals:
+    name:
+    desc:
+  misc:
+    name:
+    desc:
+  fun:
+    name:
+    desc:
+  developer:
+    name:
+    desc:
+
+locale:
+  language:
+  translators:
+  title:
+  amount:
+  updated:
+  unsupported:
+
+misc:
+  invite:
+  roll:
+  sent: .
+  enabled:
+  disabled:
+
+user:
+  info:
+  status:
+  roles:
+  username:
+  id:
+  created:
+  joined:
+  states:
+    online:
+    dnd:
+    idle:
+    offline:
+
+rp:
+  client:
+  self:
