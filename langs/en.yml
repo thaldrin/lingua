@@ -1,6 +1,6 @@
 meta:
   name: ":flag_us: English (US)"
-  locale: en_US
+  locale: en
   translators:
     - 318044130796109825 # Lio
 
@@ -38,10 +38,10 @@ categories:
     name: Misc
     desc: Miscellaneous Commands
   fun:
-    name: fun
+    name: Fun
     desc: Fun Commands
   developer:
-    name: developer
+    name: Developer
     desc: Developer only commands, duh.
 
 locale:
@@ -68,9 +68,9 @@ user:
   created: Created
   joined: Joined
   states:
-    online: online
+    online: Online
     dnd: Do not Disturb
-    idle: idle
+    idle: Idle
     offline: Offline
 
 rp:

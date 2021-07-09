@@ -1,4 +1,4 @@
-// Base File for translations
+import Lingua from ".";
+let lang = new Lingua()
 
-
-// TODO: Enter all strings here
+console.log(lang.get("en").missing.mention)

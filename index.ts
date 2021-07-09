@@ -1,31 +1,22 @@
-// import en_US from "./src/en_US";
-// import de_DE from "./src/de_DE";
+import yaml from 'js-yaml'
+import { readdirSync as readdir, readFileSync as readfile } from "fs";
+import path from "path";
+import { Language } from './src/types';
+export default class Lingua {
+    #path = './langs'
+    #langs?: void | string[]
+    #data?: Language[] = []
 
-// export default {
-//     en_US,
-//     de_DE
-// }
+    constructor() {
+        this.#langs = readdir(path.join(__dirname, this.#path)).filter(f => f.endsWith('.yml')) ?? []
+        // @ts-ignores
+        this.#langs.forEach(file => this.#data.push(yaml.load(readfile(path.join(__dirname, this.#path, file)))))
 
-// export default class Lingua {
-//     constructor() {
-
-//     }
-// }
-
-import jsyaml from 'js-yaml'
-// import yaml from 'yaml'
-
-import fs from 'fs'
-
-
-
-try {
-    const file1 = fs.readFileSync('./langs/1.yml', 'utf8')
-    const file2 = fs.readFileSync('./langs/2.yml', 'utf8')
-    const Doc = jsyaml.loadAll(file1)
-
-    console.log(Doc)
-} catch (error) {
-    console.log(error)
-
+    }
+    // @ts-ignore
+    get(lang: string): Language {
+        // @ts-ignore
+        let result: Language = this.#data.find(d => d.meta.locale === lang)
+        return result
+    }
 }
