@@ -1,4 +1,4 @@
 import Lingua from ".";
-let lang = new Lingua()
+let lang = new Lingua("./langs")
 
-console.log(lang.get("en").missing.mention)
+console.log(lang.langs())
