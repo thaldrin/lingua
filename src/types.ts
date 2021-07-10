@@ -47,6 +47,8 @@ export interface Locale {
     amount: string;
     updated: string;
     unsupported: string;
+    current: string
+    sub: string
 }
 
 export interface Meta {

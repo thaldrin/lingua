@@ -2,7 +2,7 @@ meta:
   name: ":flag_us: English (US)"
   locale: en
   translators:
-    - 318044130796109825 # Lio
+    - "318044130796109825" # Lio
 
 missing:
   tags:
@@ -48,9 +48,11 @@ locale:
   language: Language
   translators: AMOUNT Translator(s)
   title: LANGUAGE by TRANSLATOR
-  amount: "BOT is available in AMOUNT Languages, you can easily change BOT's current Language by running `PREFIX locale set <country_code>`\n\n[Translations](https://t8.pm/lingua) are provided by the Community "
+  amount: "BOT is available in AMOUNT Languages, you can easily change BOT's current Language by running `PREFIX locale set <locales>`\n\n[Translations](https://t8.pm/lingua) are provided by the Community "
   updated: Successfully updated SETTING
   unsupported: BOT does not support VALUE at this time.
+  current: Current Language
+  sub: "• Use `PREFIX locale set <locale>` to set the Guild's Language"
 
 misc:
   invite: You can invite BOT using this Link
