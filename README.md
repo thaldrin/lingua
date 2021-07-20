@@ -1,5 +1,7 @@
 # Lingua
 
-Language Module for [Thaldrin](https://thaldr.in)
+> 🌏 Lingua `("Language")` is the Heart of [Thaldrin](https://thaldr.in)'s language system.
 
-You can help translate Thaldrin on [GitLocalize](https://gitlocalize.com/repo/6258)
+Lingua includes [Thaldrin](https://thaldrin.in)'s language files and also acts as the primary module for getting Language data.
+
+You can help us translate Thaldrin on [GitLocalize](https://gitlocalize.com/repo/6258)
