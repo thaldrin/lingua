@@ -20,8 +20,8 @@ error:
   permissions: You need `PERMISSIONS` Permissions to run this Command
   error: COMMAND encountered an error
   cooldown:
-    name: COMMAND is on COOLDOWN
-    desc: "COMMAND has a cooldown of COOLDOWN\nWait TIME before trying to run it again"
+    name: COMMAND is on Cooldown
+    desc: "COMMAND has a cooldown of COOLDOWN\nWait `TIME`s before trying to run it again"
   developer: This Command can only be run by Devs
 
 categories:
